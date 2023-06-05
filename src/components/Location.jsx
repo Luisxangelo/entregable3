@@ -20,8 +20,8 @@ const Location = ({location, setLocation}) => {
         <section className=" bg-[url(/images/backgroundimage/initbackground.png)] bg-cover grid grid-rows-2 ">
             {/* input de busqueda */}
             <form className="bg-[url(/images/name.png)] bg-auto bg-no-repeat bg-center text-center pt-60" onSubmit={handleSubmit}>
-              <input id="NewLocation" className="text-black text-center border-red-900/100 rounded-xl p-2 w-auto" placeholder="Type a location Id" type="text" />
-              <button className="right-0 bg-amber-300 rounded-xl gap-3 p-1 border-red-900/100">Search<i className='bx bx-search item p-2 gap-2'></i></button>
+              <input id="NewLocation" className="text-black text-center border-solid border-2 border-red-900/100 rounded-xl p-2 w-auto" placeholder="Type a location Id" type="text" />
+              <button className="right-0 bg-amber-300 rounded-xl gap-3 p-1 border-solid border-2 border-red-900/100">Search<i className='bx bx-search item p-2 gap-2'></i></button>
             </form>
     
             {/* info de location*/}
